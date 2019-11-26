@@ -1,0 +1,52 @@
+{
+    "name": "Bootstrap grid",
+    "identifier": "bootstrap.grid",
+    "version": "1.0",
+    "description": "Set bootstrap grid",
+    "author": "Kirenkov Vitaliy",
+    "email": "kirenkov.vitaliy@gmail.com",
+    "icon" : "sketch-runner-icon.png",
+
+    "commands": [{
+        "script": "build-grid.js",
+        "handler": "buildGrid",
+        "shortcut": "ctrl shift g",
+        "name": "Set grid with last configuration",
+        "identifier": "buildGrid"
+    }, {
+        "script": "options-window.js",
+        "handler": "openOptionsWindow",
+        "shortcut": "ctrl shift w",
+        "name": "Options window",
+        "identifier": "openOptionsWindow"
+    }, {
+        "script": "default-grid.js",
+        "handler": "buildDefaultGrid",
+        "shortcut": "ctrl shift d",
+        "name": "Set default Bootstrap grid",
+        "identifier": "buildDefaultGrid"
+    }, {
+        "script": "about-author.js",
+        "handler": "aboutAuthor",
+        "shortcut": "",
+        "name": "Created by: Vitaliy Kirenkov",
+        "identifier": "aboutAuthor"
+    }, {
+        "script": "about-idea.js",
+        "handler": "aboutIdea",
+        "shortcut": "",
+        "name": "Idea: Anastasia Popova",
+        "identifier": "aboutIdea"
+    }],
+    
+    "menu": {
+        "items": [
+            "openOptionsWindow",
+            "buildGrid",
+            "buildDefaultGrid",
+            "-",
+            "aboutAuthor",
+            "aboutIdea"
+        ]
+    }
+}
