@@ -1,8 +1,0 @@
-
-<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Ideation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard2-Copy" transform="translate(-100.000000, -55.000000)" fill="#D2D2D2">
-            <path d="M220,55 C286.27417,55 340,108.72583 340,175 C340,241.27417 286.27417,295 220,295 C153.72583,295 100,241.27417 100,175 C100,108.72583 153.72583,55 220,55 Z M220,75 C164.771525,75 120,119.771525 120,175 C120,230.228475 164.771525,275 220,275 C275.228475,275 320,230.228475 320,175 C320,119.771525 275.228475,75 220,75 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
